@@ -1,0 +1,18 @@
+1/ get the current input char and find it in entire single word if you find it then replace that word's that index with 0 and then find highest length between your current letter index and with yur founded letter index and which ever I  higher take that and do high - low = score and save it
+
+2/ when in entire word the letter not found that time add the highest word length in entire dic to the score.
+
+3/ if the word is less then add highest word length
+
+
+time, timetable, timestamp, timebound
+
+timme 
+
+
+9, 0+0+0+9+1 = 10+4 = 14, 0+0+0+4+1=5+4=9, 0+0+0+9+1=10+5 = 15
+
+1. match in entire word if yes then find highest matched index and do highest - lowest.index = score and replace word letter with 0
+2. if not matched then find the highest length of the word in entire process and add + = score
+3. if extra word remained 1 += score
+4. if extra input word remained highest word length += socre
